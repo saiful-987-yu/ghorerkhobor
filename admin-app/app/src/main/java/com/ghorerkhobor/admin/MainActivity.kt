@@ -550,6 +550,7 @@ fun MessageCard(msg: Message, onClick: () -> Unit) {
     }
 }
 
+@OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun DetailScreen(message: Message, onBack: () -> Unit) {
     val context = LocalContext.current
